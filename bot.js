@@ -294,12 +294,12 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'Berşah') {
-    msg.reply('NO Adam ^^');
+    msg.reply('O Adam Deyil Kendisii DEdi ^^');
   }
 });
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'berşah') {
-    ('NO Adam ^^');
+    msg.reply('O Adam Deyil Kendisii DEdi ^^');
   }
 });
