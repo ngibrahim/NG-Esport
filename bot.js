@@ -294,12 +294,12 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'Berşah') {
-    msg.reply('O Adam Deyil Kendisii DEdi ^^');
+    msg.reply('O Tam Bir Adam En IYi kisi :middle_finger: ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'berşah') {
-    msg.reply('O Adam Deyil Kendisii DEdi ^^');
+    msg.reply('O Tam Bir Adam En IYi kisi :middle_finger: ');
   }
 });
