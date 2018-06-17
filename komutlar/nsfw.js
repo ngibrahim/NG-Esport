@@ -15,7 +15,7 @@ exports.run = (client, message, params) => {
     .setColor(3447003)
     .setTimestamp()
     .setDescription('')
-		.setImage(`https://upload.wikimedia.org/wikipedia/commons/2/24/Lateral_sex.jpg`)
+		.setImage(`https://cdn.discordapp.com/emojis/457879153312530433.png?v=1`)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
