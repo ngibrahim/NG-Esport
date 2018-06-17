@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'intihar et',
+  name: 'intiharet',
   description: 'İntiharet.',
-  usage: 'intihar et'
+  usage: 'intiharet'
 };
