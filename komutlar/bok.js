@@ -11,7 +11,7 @@ exports.run = (client, message, params) => {
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor(message.author.username + '(((IĞİY!')
+    .setAuthor(message.author.username + '(!!!IĞİY!')
     .setColor(3447003)
     .setTimestamp()
     .setDescription('')
