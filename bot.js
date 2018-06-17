@@ -291,3 +291,15 @@ client.on('message', msg => {
     msg.reply('Efendim ^^');
   }
 });
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'Berşah') {
+    msg.reply('NO Adam ^^');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'berşah') {
+    msg.reply('NO Adam ^^');
+  }
+});
