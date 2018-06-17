@@ -300,6 +300,6 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'berşah') {
-    msg.reply('NO Adam ^^');
+    ('NO Adam ^^');
   }
 });
